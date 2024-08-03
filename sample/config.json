@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "deployAliases": {
+    "devwallet": {
+      "networkId": "testnet",
+      "url": "https://api.minascan.io/node/devnet/v1/graphql",
+      "keyPath": "keys/devwallet.json",
+      "feepayerKeyPath": "/Users/harukikondo/.cache/zkapp-cli/keys/devwallet.json",
+      "feepayerAlias": "devwallet",
+      "fee": "0.1",
+      "smartContract": "Square"
+    }
+  }
+}
