@@ -28,6 +28,12 @@ npm i
 npm run task examples/<example-file-name>.ts
 ```
 
+## Deploy Contract
+
+```bash
+npm run task examples/e2e.eg.ts
+```
+
 ## License
 
 `mina-fungible-token` is [Apache licensed](LICENSE).
