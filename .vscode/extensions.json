@@ -1,6 +1,10 @@
 {
   "recommendations": [
     "nomicfoundation.hardhat-solidity",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "GitHub.vscode-github-actions",
+    "dprint.dprint",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one"
   ]
 }
