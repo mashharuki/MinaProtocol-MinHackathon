@@ -13,3 +13,4 @@ This repo for MinaProtocol-MinHackathon
 7. [作成した開発用ウォレット](https://minascan.io/devnet/tx/5JuPC4hhNb83ufKmuRtj97jSSbdDURLTwTb6vmJL6k3Bv7Zi6uA7)
 8. [ファウセット用リンク](https://faucet.minaprotocol.com/?address=B62qoFHxcia11kauLdy6f9B8yfB9QUkMRDTJhrXoKEgkuDzDSGU9MgU&explorer=minascan)
 9. [mina-fungible-token Docs](https://minafoundation.github.io/mina-fungible-token/)
+10. [interacting-with-zkapps-server-side](https://docs.minaprotocol.com/zkapps/tutorials/interacting-with-zkapps-server-side)

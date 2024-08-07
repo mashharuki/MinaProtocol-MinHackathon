@@ -5,3 +5,5 @@ keys
 
 config.json
 build
+
+.env
