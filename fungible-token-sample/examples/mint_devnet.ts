@@ -4,15 +4,16 @@ import {FungibleToken} from "./../index.js";
 
 dotenv.config();
 
-const {PRIVATE_KEY} = process.env;
+const {PRIVATE_KEY, TOKEN_PRIVATE_KEY, TOKEN_PUBLIC_KEY} = process.env;
 
 const Network = Mina.Network("https://api.minascan.io/node/devnet/v1/graphql");
 Mina.setActiveInstance(Network);
 
 class MyToken extends FungibleToken {}
+// トークン用のキー情報を設定
+const tokenKey = PrivateKey.fromBase58(TOKEN_PRIVATE_KEY!);
+const tokenAddress = PublicKey.fromBase58(TOKEN_PUBLIC_KEY!);
 
-const {privateKey: tokenKey, publicKey: tokenAddress} =
-  PrivateKey.randomKeypair();
 const token = new MyToken(tokenAddress);
 
 // deployer
