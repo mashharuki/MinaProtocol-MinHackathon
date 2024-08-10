@@ -34,6 +34,36 @@ npm run task examples/<example-file-name>.ts
 npm run task examples/e2e.eg.ts
 ```
 
+## Deploy devnet
+
+```bash
+npm run task examples/deploy_devnet.ts
+```
+
+```bash
+Deploying token
+See transaction at https://minascan.io/devnet/tx/5JuCziR1eSAAz3ocpf8Mv8RSNu8p9QSpHtywQrBY5LgoXhTdMw1F
+Waiting for transaction to be included in a block
+```
+
+Deployed Token
+
+[MashTN - xR7E8xvJo2bX2kFGLSqrA9XTrdZRq1L89BdLxt9N3gCGqonqyn](https://minascan.io/devnet/token/xR7E8xvJo2bX2kFGLSqrA9XTrdZRq1L89BdLxt9N3gCGqonqyn/zk-txs)
+
+## mint Token
+
+```bash
+npm run task examples/mint_devnet.ts
+```
+
+```bash
+owner balance before mint: 0n
+Minting token
+See transaction at https://minascan.io/devnet/tx/5Jur32w1Xc6juesY9hGNbV4AAfABsWxK22RrMNvUiWnNuzbatuwY
+Mint token done
+owner balance after mint: 0n
+```
+
 ## License
 
 `mina-fungible-token` is [Apache licensed](LICENSE).

@@ -63,18 +63,18 @@ console.log("Deploying token");
 
 // deploy the token
 const tx = await Mina.transaction({sender: deployer, fee}, async () => {
-  AccountUpdate.fundNewAccount(deployer, 1);
-  fungibleTokenAdmin.deploy({adminPublicKey: adminAddress});
-  token.deploy({
+  AccountUpdate.fundNewAccount(deployer, 3);
+  await fungibleTokenAdmin.deploy({adminPublicKey: adminAddress});
+  await token.deploy({
     symbol,
     src,
   });
-  token.initialize(adminAddress, UInt8.from(9), Bool(false));
+  await token.initialize(adminAddress, UInt8.from(9), Bool(false));
 });
 
 await tx.prove();
 // sign & send Tx
-tx.sign([deployerKey, tokenKey]);
+tx.sign([deployerKey, tokenKey, adminKey]);
 let pendingTransaction = await tx.send();
 
 if (pendingTransaction.status === "rejected") {
