@@ -28,6 +28,12 @@ npm i
 npm run task examples/<example-file-name>.ts
 ```
 
+## genereate net KeyPair
+
+```bash
+npm run task examples/generate_key.ts
+```
+
 ## Deploy Contract
 
 ```bash
@@ -63,6 +69,26 @@ See transaction at https://minascan.io/devnet/tx/5Jur32w1Xc6juesY9hGNbV4AAfABsWx
 Mint token done
 owner balance after mint: 0n
 ```
+
+[mintTx](https://minascan.io/devnet/tx/5Jur32w1Xc6juesY9hGNbV4AAfABsWxK22RrMNvUiWnNuzbatuwY)
+
+## trasnfer Token
+
+```bash
+npm run task examples/transfer_devnet.ts
+```
+
+```bash
+Transferring tokens from owner to admin
+See transaction at https://minascan.io/devnet/tx/5JumaqMFAF1MeygQHmCvb9662rGC6FtB43z9URbEpEMzvG2TtZFL
+Transfer token done
+```
+
+[transferTx](https://minascan.io/devnet/tx/5JumaqMFAF1MeygQHmCvb9662rGC6FtB43z9URbEpEMzvG2TtZFL)
+
+## Token Holder Info
+
+[Token Holder Info](https://minascan.io/devnet/token/xR7E8xvJo2bX2kFGLSqrA9XTrdZRq1L89BdLxt9N3gCGqonqyn/holders)
 
 ## License
 

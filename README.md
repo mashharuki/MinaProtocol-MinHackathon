@@ -2,6 +2,59 @@
 
 This repo for MinaProtocol-MinHackathon
 
+## Update Point in MinaProtocol-MinHackathon
+
+- script to generate a new key pair
+- script to deploy a fungible token to the devnet
+- script to mint a fungible token
+- script to transfer fungible tokens
+
+## How to work
+
+Please run these scripts within the `fungible-token-sample` directory.
+
+- install 
+
+  ```bash
+  npm i
+  ```
+
+- Generate a new key pair.
+
+  ```bash
+  npm run task examples/generate_key.ts
+  ```
+
+- Deploy to the devnet.
+
+  ```bash
+  npm run task examples/deploy_devnet.ts
+  ```
+
+  [deployed Tx](https://minascan.io/devnet/tx/5JuCziR1eSAAz3ocpf8Mv8RSNu8p9QSpHtywQrBY5LgoXhTdMw1F)
+
+  Deployed Token
+
+  - [MashTN - xR7E8xvJo2bX2kFGLSqrA9XTrdZRq1L89BdLxt9N3gCGqonqyn](https://minascan.io/devnet/token/xR7E8xvJo2bX2kFGLSqrA9XTrdZRq1L89BdLxt9N3gCGqonqyn/zk-txs)
+
+- Mint a fungible token.
+
+  ```bash
+  npm run task examples/mint_devnet.ts
+  ```
+
+  [Mint Tx](https://minascan.io/devnet/tx/5Jur32w1Xc6juesY9hGNbV4AAfABsWxK22RrMNvUiWnNuzbatuwY)
+
+- Transfer fungible tokens.
+
+  ```bash
+  npm run task examples/transfer_devnet.ts
+  ```
+  
+  [Transfer Tx](https://minascan.io/devnet/tx/5JumaqMFAF1MeygQHmCvb9662rGC6FtB43z9URbEpEMzvG2TtZFL)
+  
+  [List of token holders](https://minascan.io/devnet/token/xR7E8xvJo2bX2kFGLSqrA9XTrdZRq1L89BdLxt9N3gCGqonqyn/holders)
+
 ### 参考文献
 
 1. [writing-a-zkapp](https://docs.minaprotocol.com/zkapps/writing-a-zkapp)
