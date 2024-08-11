@@ -2,6 +2,10 @@
 
 This repo for MinaProtocol-MinHackathon
 
+## About this project
+
+I created a meme coin on Mina Protocol for a mini hackathon!
+
 ## Update Point in MinaProtocol-MinHackathon
 
 - script to generate a new key pair
