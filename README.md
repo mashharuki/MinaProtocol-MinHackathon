@@ -72,3 +72,4 @@ Please run these scripts within the `fungible-token-sample` directory.
 9. [mina-fungible-token Docs](https://minafoundation.github.io/mina-fungible-token/)
 10. [interacting-with-zkapps-server-side](https://docs.minaprotocol.com/zkapps/tutorials/interacting-with-zkapps-server-side)
 11. [Tutorial 4: Build a zkApp UI in the Browser with React](https://docs.minaprotocol.com/zkapps/tutorials/zkapp-ui-with-react)
+12. [GitHub - o1-labs-XT/workshop-slides](https://github.com/o1-labs-XT/workshop-slides/tree/main)
